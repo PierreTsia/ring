@@ -22,8 +22,15 @@ border: 1px solid green;
 .col-md-3{
     border: 1px solid darkolivegreen;
 }
+.col-md-6{
+    border: 1px solid forestgreen;
+}
 .section-header{
     border: 1px solid orange;
+}
+
+.navbar{
+    border: 1px solid pink;
 }
 
 
