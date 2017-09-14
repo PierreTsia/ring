@@ -34,3 +34,70 @@ border: 1px solid green;
 }
 
 
+/*KILL LIST*/
+
+
+.kill-card{
+    width:300px;
+    height: 373px;
+    border: 2px solid grey;
+    margin: auto;
+    background-image: url('../integration_gandalf.png');
+    background-size: cover;
+    text-align: center;
+    margin-bottom : 50px;
+
+}
+
+.kill-card h1, .kill-card h2{
+    margin:0;
+}
+
+.to-hover{
+    color:#fff;
+    background-color: rgba(255, 255, 255, 0.43);
+    height: 100%;
+    padding: 20px;
+    
+   
+    
+}
+
+
+.to-show{
+    visibility: hidden;
+}
+
+.to-hover:hover .to-show{
+    visibility: visible;
+    font-size: 0.5em;
+}
+
+.to-hover:hover .to-hide{
+    visibility: hidden;
+}
+
+.to-hover:hover {
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.reward {
+    width: 200px;
+    margin: auto;
+       border: 1px solide #fff;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: #000000;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.em-text {
+    color:orange;
+    font-weight: 900;
+}
+
+.target-name {
+    color: white;
+    font-size: 3em;
+    margin-top:50px;
+}
